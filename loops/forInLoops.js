@@ -9,6 +9,6 @@ let student = {
 };
 
 for (potato in student){ //potato can be "item"/object/ WHATEVER YOU WANT but doesnt need to be anything specific
-    console.log(potato);
+    // console.log(potato);
     console.log(student[potato]);
 }

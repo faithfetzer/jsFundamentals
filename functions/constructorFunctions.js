@@ -5,6 +5,7 @@ let person1 = {
     age: 24,
     canVote: true
 };
+
 let person2 = {
     firstName: 'Jeremy',
     age: 15,

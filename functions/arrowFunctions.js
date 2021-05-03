@@ -1,7 +1,7 @@
 // 1         2
 let hi = () => {
     console.log('hi');
-}
+};
 // "fat arrow functions"
 // 1 we need to set the fat arrow function to a variable
 // 2 use "fat arrow" to signify it is a function
@@ -10,8 +10,10 @@ let hi = () => {
 // do not get hoisted
 // 2 types: concise body and block body
 // concise body
+
 let hiTwo = () =>console.log('hi');
-// concie body arrow unctions return by default
+
+// concise body arrow unctions return by default
 
 let apples = x => console.log(`there are ${x} apples.`);
 apples(45);
